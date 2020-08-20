@@ -2050,6 +2050,7 @@ TransparentDistanceSortPredicate{
 
 void GLInstancingRenderer::renderSceneInternal(int orgRenderMode)
 {
+	printf("Use renderSceneInternal in GLInstancingRenderer.cpp:2051\n");
 	B3_PROFILE("renderSceneInternal");
 	int renderMode = orgRenderMode;
 	bool reflectionPass = false;
